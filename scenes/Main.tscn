@@ -1,6 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://dokijeud1rppd"]
+[gd_scene load_steps=11 format=3 uid="uid://dokijeud1rppd"]
 
 [ext_resource type="Texture2D" uid="uid://cv0fcbp2fy6oy" path="res://assets/chicken.png" id="1_elqb8"]
+[ext_resource type="Script" uid="uid://wq1yxewf52w0" path="res://scenes/character_body_2d.gd" id="1_rvslj"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rvslj"]
 radius = 9.0
@@ -74,6 +75,7 @@ animations = [{
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 position = Vector2(309, 275)
+script = ExtResource("1_rvslj")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 shape = SubResource("CapsuleShape2D_rvslj")
@@ -82,4 +84,4 @@ shape = SubResource("CapsuleShape2D_rvslj")
 sprite_frames = SubResource("SpriteFrames_q8u5g")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.46463814
+frame_progress = 0.9357087

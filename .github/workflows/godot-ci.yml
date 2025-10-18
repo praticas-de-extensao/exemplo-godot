@@ -3,8 +3,9 @@ name: Godot CI/CD
 on:
   push:
     branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
+
+permissions:
+  contents: write
 
 env:
   GODOT_VERSION: 4.3

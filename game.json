@@ -1,5 +1,5 @@
 {
-  "name": "Seu Jogo ODS",
+  "name": "Jogo exemplo Godot",
   "team": "Sua Equipe",
   "year": 2025,
   "sdgs": [
@@ -10,9 +10,9 @@
     "Godot",
     "GDScript"
   ],
-  "repo": "https://github.com/sua-org/seu-repo",
-  "play_url": "https://sua-org.github.io/seu-repo/",
-  "thumbnail": "https://sua-org.github.io/seu-repo/thumb.png",
+  "repo": "https://github.com/praticas-de-extensao/exemplo-godot",
+  "play_url": "https://praticas-de-extensao.github.io/exemplo-godot/",
+  "thumbnail": "https://praticas-de-extensao.github.io/exemplo-godot/thumb.png",
   "description": "Breve descrição do jogo.",
   "accessibility": [
     "keyboard"
